@@ -1,0 +1,203 @@
+body {
+    font-size: 24pt;
+}
+
+.body-img {
+    width: 100%;
+}
+
+.contact-btn {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    height: 1.5%;
+    width: 18%;
+    background-color: transparent;
+    top: 6.5%;
+    left: 19%;
+    border: 2px solid transparent;
+}
+
+.resume-btn {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    height: 1.5%;
+    width: 18%;
+    top: 6.5%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    left: 40%;
+}
+
+.projects-btn {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    height: 1.5%;
+    width: 18%;
+    top: 6.5%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    left: 63%;
+}
+
+.main-image {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.projects-header {
+    display: block;
+    position: absolute;
+    height: 1.5%;
+    width: 18%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    top: 32%;
+}
+
+.mat {
+    cursor: pointer;
+    z-index: 0;
+    position: absolute;
+    border: 2px solid transparent;
+    height: 10%;
+    width: 70%;
+    background-color: transparent;
+    top: 37%;
+    left: 15%;
+}
+
+.mat .mattext {
+    visibility: hidden;
+    width: 50%;
+    background-color: #DEE6EF;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0%;
+    left: 30%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+    font-size: 20pt;
+}
+
+.mat:hover .mattext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.devteam {
+    cursor: pointer;
+    z-index: 0;
+    position: absolute;
+    border: 2px solid transparent;
+    height: 10%;
+    width: 70%;
+    background-color: transparent;
+    top: 54%;
+    left: 15%;
+}
+
+.devteam .devteamtext {
+    visibility: hidden;
+    width: 50%;
+    background-color: #DEE6EF;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0%;
+    left: 30%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+    font-size: 20pt;
+}
+
+.devteam:hover .devteamtext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.storepage {
+    cursor: pointer;
+    z-index: 0;
+    position: absolute;
+    border: 2px solid transparent;
+    height: 10%;
+    width: 70%;
+    background-color: transparent;
+    top: 70.5%;
+    left: 15%;
+}
+
+.storepage .storepagetext {
+    visibility: hidden;
+    width: 50%;
+    background-color: #DEE6EF;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0%;
+    left: 30%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+    font-size: 20pt;
+}
+
+.storepage:hover .storepagetext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.petadopter {
+    cursor: pointer;
+    z-index: 0;
+    position: absolute;
+    border: 2px solid transparent;
+    height: 10%;
+    width: 70%;
+    background-color: transparent;
+    top: 89%;
+    left: 15%;
+}
+
+.petadopter .petadoptertext {
+    visibility: hidden;
+    width: 50%;
+    background-color: #DEE6EF;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0%;
+    left: 30%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+    font-size: 20pt;
+}
+
+.petadopter:hover .petadoptertext {
+    visibility: visible;
+    opacity: 1;
+}
